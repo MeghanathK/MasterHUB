@@ -10,7 +10,7 @@ public class ClassM2 {
 	int b=20;
 	
 	int c=a>b?a:b;
-	
+	//new new m==newwww
 	System.out.print(c);
 
 	}
