@@ -11,7 +11,7 @@ public class ClassM1 {
 		
 		System.out.println("Megu1");
 	}
-
+@Test
 	public void methodM2()
 	{
 		
