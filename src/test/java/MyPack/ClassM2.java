@@ -6,12 +6,17 @@ public class ClassM2 {
 	
 	@Test
 	public void Method1() {
-	int a=10;
-	int b=20;
-	
-	int c=a>b?a:b;
-	
-	System.out.print(c);
+    //Santa
+		/*
+		 1
+		 3
+		 3
+
+34
+
+19
+
+		 */
 
 	}
 
