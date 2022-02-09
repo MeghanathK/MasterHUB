@@ -17,6 +17,10 @@ public class ClassM1 {
 		
 		System.out.println("Megu2");
 	}
+@Test	
+public void methodM3()
+{
 	
-	
+	System.out.println("Megu3");
+}
 }
