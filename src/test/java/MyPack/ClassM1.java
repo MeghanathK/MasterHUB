@@ -5,11 +5,14 @@ import org.testng.annotations.Test;
 public class ClassM1 {
 	
 	@Test
+	public void Method1() {
+	int a=10;
+	int b=20;
 	
-	public void methodM1()
-	{
-		
-		System.out.println("Megu1");
+	int c=a>b?a:b;
+	
+	System.out.print(c);
+
 	}
 
 @Test	
