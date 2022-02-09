@@ -2,7 +2,7 @@ package MyPack;
 
 import org.testng.annotations.Test;
 
-public class ClassM2 {
+public class ClassM3 {
 	
 	@Test
 	public void Method1() {
