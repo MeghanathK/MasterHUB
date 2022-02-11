@@ -11,7 +11,7 @@ public class App {
     nums[j] = tmp;
   }
 
-  public int partition(int[] nums, int start, int end) {
+  /*public int partition(int[] nums, int start, int end) {
     int key = nums[start];
     int i = start + 1;
     for (int k = start + 1; k <= end ; k++) {
@@ -31,7 +31,7 @@ public class App {
       int index = partition(nums, start, end);
       quicksort(nums, start, index - 1);
       quicksort(nums, index + 1, end);
-    }
+    }*/
   }
 
   public void quicksort(int[] nums) {
