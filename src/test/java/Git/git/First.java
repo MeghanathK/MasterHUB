@@ -8,7 +8,7 @@ public class First {
 		
 		
 		int ten =10;
-		int twenty =20;
+		int twenty =90;
 				
 	}
 
