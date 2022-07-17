@@ -1,0 +1,118 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validation-of-login-functionlity;login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user hits on the link \"https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F\"",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user click on customers menu",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "customes page appears",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user enters email \"james_pan@nopCommerce.com\" and click on search button",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "search result should be displayed",
+            "match": {
+              "location": "..\\Stepdefination\\PavanDef.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validation-of-login-functionlity",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "validation of login functionlity",
+    "tags": [],
+    "uri": "..\\Features\\Pavan.feature"
+  }
+]

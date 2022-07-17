@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "updating-rahul;validation-of-update-screen",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "validation of update screen",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to \"https://rahulshettyacademy.com/angularpractice/\"",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "When step here user enters the \"meghanath kidiyoor \" in the name filed",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "take the required text",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Submit it in password section",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination2.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "updating-rahul",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "updating rahul",
+    "tags": [],
+    "uri": "..\\Features\\Rahul.feature"
+  }
+]

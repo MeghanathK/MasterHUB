@@ -1,0 +1,193 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "feature-description-calculator-screen2;adding-of-2-numbers-indi1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "adding of 2 numbers indi1",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigated to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculatorsteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enters \"20\" and \"30\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculator2.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clicked on go button",
+            "match": {
+              "location": "..\\Stepdefination\\calculatorsteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "sum should be displayed as \"50\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculator2.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "feature-description-calculator-screen2;adding-of-2-numbers-indi2",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "adding of 2 numbers indi2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user navigated to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculatorsteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user enters \"1000\" and \"30\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculator2.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicked on go button",
+            "match": {
+              "location": "..\\Stepdefination\\calculatorsteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "sum should be displayed as \"1030\"",
+            "match": {
+              "location": "..\\Stepdefination\\calculator2.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature-description-calculator-screen2",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Feature Description calculator screen2",
+    "tags": [],
+    "uri": "..\\Features\\calculator2.feature"
+  }
+]

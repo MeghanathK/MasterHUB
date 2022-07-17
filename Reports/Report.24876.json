@@ -1,0 +1,94 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "updating-rahul;validation-of-update-screen",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "validation of update screen",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to \"https://rahulshettyacademy.com/angularpractice/\"",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "When step here user enters the \"meghanath kidiyoor \" in the name filed",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 61138000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\User\\Desktop\\Cucumber_Protractor\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:80:18)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "take the required text",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Submit it in password section",
+            "match": {
+              "location": "..\\Stepdefination\\Rahuldefination2.ts:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60018000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\User\\Desktop\\Cucumber_Protractor\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:80:18)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "updating-rahul",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "updating rahul",
+    "tags": [],
+    "uri": "..\\Features\\Rahul.feature"
+  }
+]

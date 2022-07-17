@@ -1,0 +1,210 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validation-of-login-functionlity;login",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user hits on the link \"https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F\"",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user click on login button",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click on customers menu",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "customes page appears",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user enters email \"james_pan@nopCommerce.com\" and click on search button",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "search result should be displayed",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validation-of-login-functionlity;login-2",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "login 2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user hits on the link \"https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F\"",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user click on login button",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click on customers menu",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "customes page appears",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enters first name \"Steve\" and click on search button",
+            "match": {
+              "location": "..\\Stepdefination\\megudef.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4315000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validation-of-login-functionlity",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "validation of login functionlity",
+    "tags": [],
+    "uri": "..\\Features\\megu.feature"
+  }
+]
